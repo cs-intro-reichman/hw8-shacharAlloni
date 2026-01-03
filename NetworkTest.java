@@ -28,7 +28,7 @@ public class NetworkTest {
 
 
         System.out.println("\n...Adding follows relationships...");
-        net.addFollowee("Alex", "Keren");
+        net.addFollowee("Alex", "Alex");
         net.addFollowee("Alex", "Neta");
         net.addFollowee("Alex", "Zohar");
         net.addFollowee("Orly", "Zohar");

@@ -68,6 +68,7 @@ public class Network {
         if (getUser(name1) == null || getUser(name2) == null) {
             return false;
         }
+        
         User temp = getUser(name1);
         boolean check = temp.addFollowee(name2);
 
